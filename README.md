@@ -65,11 +65,11 @@ A standard regression algorithm is trained to build a new creative sound space f
 
 
 ## Usage
-#### Training the regression model
+### Training the regression model
 
 Open the `training` folder in this repository, move the [`_main.pd`](training/_main.pd) patch on your Bela and train the regression model with the [`train.pd`](training/train.pd) patch running on your computer. This enables to create new mappings for the Saxelerophone.
 
-#### Play with the Saxelerophone!
+### Play with the Saxelerophone!
 Move the [`_main.pd`](_main.pd) and [`reg_model.ann`](reg_model.ann) of this repository to your Bela, go to the [settings](https://learn.bela.io/the-ide/settings/) and set the `block size` to 512. Finally, set [`Run on Boot`](https://learn.bela.io/using-bela/bela-techniques/running-projects-on-boot/) and play with the Saxelerophone!
 
 ## Contributing
