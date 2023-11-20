@@ -58,6 +58,8 @@ Ensure you have the [GNU make](https://www.gnu.org/software/make/) (version >= 3
     * Open `neuralnet-help.pd` and ensure that all objects load (i.e. no red error message in the PD window).
     * Create a sub-folder called `neuralnet` in your `pd-externals` folder, and move all the files inside. 
 
+Additionally, download the collection of Pure Data abstractions [`SFApdlib`](https://github.com/stefanofasciani/SFApdLib), and copy the folder `sfapdlib` and its contents in your Pure Data externals directory.
+
 ## Usage
 #### Training the regression model
 
@@ -65,6 +67,12 @@ Open the `training` folder in this repository, move the [`_main.pd`](training/_m
 
 #### Play with the Saxelerophone!
 Move the [`_main.pd`](_main.pd) and [`reg_model.ann`](reg_model.ann) of this repository to your Bela, go to the [settings](https://learn.bela.io/the-ide/settings/) and set the `block size` to 512. Finally, set [`Run on Boot`](https://learn.bela.io/using-bela/bela-techniques/running-projects-on-boot/) and play with the Saxelerophone!
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
+
+## Acknowledgements
+We would like to thank Alexandros Drymonitis from `neuralnet` for open-sourcing his code and publicly releasing checkpoints, and Stefano Fasciani for the useful collection of Pure Data abstractions [`SFApdlib`](https://github.com/stefanofasciani/SFApdLib).
 
 
 
