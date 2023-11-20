@@ -39,7 +39,7 @@ A standard regression algorithm is trained to build a new creative sound space f
 
 ## Installation
 
-1. Install the collection of Pure Data abstractions [`SFApdlib`](https://github.com/stefanofasciani/SFApdLib), and copy the folder `sfapdlib` and its contents in your [Pure Data externals](https://msp.ucsd.edu/Pd_documentation/x4.htm) directory.
+1. Install the collection of Pure Data abstractions [`SFApdlib`](https://github.com/stefanofasciani/SFApdLib), and copy the folder `sfapdlib` and its contents in the computer and the Bela [Pure Data externals](https://msp.ucsd.edu/Pd_documentation/x4.htm) directory.
 
 2. Install the `pd-externals` [neuralnet] on Bela (external already compiled) and on your computer (compile it or download it).
 
