@@ -46,6 +46,7 @@ Install the [pd-externals](https://msp.ucsd.edu/Pd_documentation/x4.htm) [neural
     * Intel-based mac: download this [neuralnet](https://uio.instructure.com/files/2457350/download?download_frd=1&verifier=UvsZrykkwIA5a2QQGZWH3ji3Oab1eA14mZttXef5) folder, unzip it and move it to your `pd-external` folder.
     * Windows: download this [neuralnet](https://github.com/alexdrymonitis/neuralnet/files/9023594/neuralnet-Windows-i386-amd64.zip) folder, unzip it and move it to your `pd-external` folder.
     * Open `neuralnet-help.pd` and ensure that all objects load (i.e. no red error message in the PD window).
+    * Create a sub-folder called `neuralnet` in your `pd-externals` folder, and move all the files inside. 
 
 #### Compile `neuralnet` on your computer (optional)
 
@@ -55,6 +56,7 @@ Ensure you have the [GNU make](https://www.gnu.org/software/make/) (version >= 3
     * if `make` fails it might be because it can't find `m_pd.h`. You can download the file from [here](https://github.com/pure-data/pure-data/blob/master/src/m_pd.h) and put it in the `neuralnet` folder.
     * if `make` succeeds you will find two new files in the neuralnet folder called `neuralnet.pd_xxx` and `neuralnet.pd_xxx.o`, where `xxx` is a string corresponding to your operating system.
     * Open `neuralnet-help.pd` and ensure that all objects load (i.e. no red error message in the PD window).
+    * Create a sub-folder called `neuralnet` in your `pd-externals` folder, and move all the files inside. 
 
 ## Usage
 #### Training the regression model
