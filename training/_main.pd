@@ -3,25 +3,25 @@
 #X obj 61 536 netsend -u;
 #X obj 345 105 loadbang;
 #X obj 61 395 snapshot~;
-#X obj 136 395 snapshot~;
-#X obj 216 390 snapshot~;
+#X obj 138 395 snapshot~;
+#X obj 216 395 snapshot~;
 #X obj 217 226 lop~;
-#X obj 136 228 lop~;
+#X obj 138 228 lop~;
 #X obj 60 225 lop~;
 #X obj 61 457 pack f f f;
 #X obj 60 286 clip~ 0 1;
-#X obj 135 312 clip~ 0 1;
+#X obj 137 312 clip~ 0 1;
 #X obj 217 338 clip~ 0 1;
 #X msg 242 157 50;
 #X msg 345 509 connect 192.168.6.1 8001;
 #X text 377 470 IP address may have to be changed to 192.186.7.1 on
 Mac OSX computers, f 39;
 #X text 527 510 Windows IP address;
-#X obj 60 257 sfapdlib/scalesiglin~ 0.31 0.52 0 1;
-#X obj 135 288 sfapdlib/scalesiglin~ 0.31 0.52 0 1;
+#X obj 62 257 sfapdlib/scalesiglin~ 0.31 0.52 0 1;
+#X obj 137 288 sfapdlib/scalesiglin~ 0.31 0.52 0 1;
 #X obj 217 314 sfapdlib/scalesiglin~ 0.31 0.52 0 1;
 #X obj 366 158 metro 50;
-#X text 296 389 sample accelerometer data every 50ms and send to computer
+#X text 296 394 sample accelerometer data every 50ms and send to computer
 via UDP, f 35;
 #X text 59 50 Run this patch on Bela and train the regression model
 with the train.pd patch running on the computer;
