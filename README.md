@@ -5,7 +5,7 @@ Saxophonists can move their instrument around in space relatively easily when pl
 Based on two important concepts of the field of Interactive Music System (IMS): the *demonstration of virtuosity* and the *spare bandwidth*, we propose the Saxelerophone: a hyper-instrument tracking data from a 3-axis digital accelerometer and a contact microphone to create new interactive sounds for the saxophone. 
 
 <p align="center">
-  <img src="images/saxelerophone.jpg" alt="The Saxelerophone"/>
+  <img src="images/saxelerophone.jpg" style="max-width:600px;width:100%" alt="The Saxelerophone"/>
 </p>
 
 <!-- |![Saxelerophone](images/saxelerophone.jpg "The Saxelerophone")|
