@@ -35,7 +35,7 @@ A functional diagram of the Saxelerophone with its electronic components and how
 Mapping of the gestures into sound synthesis parameters is performed using machine learning. A schematic representation of the Saxelerophone’s mappings
 is presented in the diagram in Figure 3.
 
-|![Figure 3](images/mapping.jpg "Saxelerophone’s mappings.")|
+|![Figure 3](images/mappings.jpg "Saxelerophone’s mappings.")|
 |:-:|
 |Figure 3: Saxelerophone’s mappings.|
 
