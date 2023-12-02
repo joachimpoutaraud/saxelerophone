@@ -22,7 +22,7 @@ played on the instrument.
 using machine learning.
 3. Motion sensing for demonstrating gestural virtuosity.
 
-Sensing objectives are achieved through the use of a [contact microphone](https://www.farnell.com/datasheets/3123697.pdf) and an [ADXL313](https://www.analog.com/media/en/technical-documentation/data-sheets/adxl313.pdf) 3-axis digital accelerometer, positioned one on top of the other on the upper part of the saxophone’s mouthpiece. Sensing data is processed using the visual programming language [Pure Data](http://puredata.info/) (version 0.52.1) and runs on a [Bela board](https://learn.bela.io/products/bela-boards/bela/). 
+Sensing objectives are achieved through the use of a [contact microphone](https://www.farnell.com/datasheets/3123697.pdf) and an [ADXL337](https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL337.pdf) 3-axis digital accelerometer, positioned one on top of the other on the upper part of the saxophone’s mouthpiece. Sensing data is processed using the visual programming language [Pure Data](http://puredata.info/) (version 0.52.1) and runs on a [Bela board](https://learn.bela.io/products/bela-boards/bela/). 
 
 A functional diagram of the Saxelerophone with its electronic components and how they are connected is presented in Figure 2.
 
