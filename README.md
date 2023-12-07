@@ -67,18 +67,17 @@ A standard regression algorithm is trained to build a new creative sound space f
         * Open `neuralnet-help.pd` and ensure that all objects load (i.e. no red error message in the PD window).
         * Create a sub-folder called `neuralnet` in your `pd-externals` folder, and move all the files inside. 
 
-
-## Usage
-### Training the regression model
-
-Connect your Bela system to your computer with a USB cable. Open the `training` folder of this repository, move the [`_main.pd`](training/_main.pd) patch to your project on the [Bela IDE](https://learn.bela.io/the-ide/), and train a regression model with the [`train.pd`](training/train.pd) patch running on your computer. This enables to create new regression mappings for the Saxelerophone.
-
 ### Assembly the Saxelerophone
 Solder the wires shown in Figure 2 between the sensors and the Bela board. Use wires with a minimum length of 50 cm and a blank Printed Circuit Board ([PCB](https://en.wikipedia.org/wiki/Printed_circuit_board)) place on top of the Bela board. Hang the Bela board around your neck with a strap and adjust it so that the board is roughly in the middle of your torso. In a second step, place the [contact microphone](https://www.farnell.com/datasheets/3123697.pdf) on the upper part of the saxophone ligature, with the [ADXL337](https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL337.pdf) 3-axis digital accelerometer placed on top of it. Secure the electronic components with electrical tape and perform a [continuity test](https://en.wikipedia.org/wiki/Continuity_test) using a multimeter to see if current flows properly. Figure 4 shows the electronic components involved and their location on the Saxelerophone mouthpiece.
 
 |![Figure 4](images/components.jpg "Location of the Saxelerophone's electronic components.")|
 |:-:|
 |Figure 4: Location of the Saxelerophone's electronic components.|
+
+## Usage
+### Training the regression model
+
+Connect your Bela system to your computer with a USB cable. Open the `training` folder of this repository, move the [`_main.pd`](training/_main.pd) patch to your project on the [Bela IDE](https://learn.bela.io/the-ide/), and train a regression model with the [`train.pd`](training/train.pd) patch running on your computer. This enables to create new regression mappings for the Saxelerophone.
 
 ### Play with the Saxelerophone!
 Connect your Bela system to your computer with a USB cable. Move the [`_main.pd`](_main.pd) and [`reg_model.ann`](reg_model.ann) of this repository to your project on the [Bela IDE](https://learn.bela.io/the-ide/), go to the [settings](https://learn.bela.io/the-ide/settings/) and set the `block size` to `512`. Finally, set [`Run on Boot`](https://learn.bela.io/using-bela/bela-techniques/running-projects-on-boot/) and play with the Saxelerophone!
