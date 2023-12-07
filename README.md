@@ -42,7 +42,7 @@ is presented in the diagram in Figure 3.
 A standard regression algorithm is trained to build a new creative sound space for the performer. The algorithm is optimized using the Adam optimizer initialized with a default learning rate of 0.001 and a weight decay of 0.0001. Training of the algorithm is facilitated using the ANN framework for Pure Data called [neuralnet]( https://github.com/alexdrymonitis/neuralnet.git).
 
 ## Installation
-
+### Software
 1. Install the collection of Pure Data abstractions [`SFApdlib`](https://github.com/stefanofasciani/SFApdLib), and copy the folder `sfapdlib` and its contents in the computer and the Bela [Pure Data externals](https://msp.ucsd.edu/Pd_documentation/x4.htm) directory.
 
 2. Install the `pd-externals` [neuralnet] on Bela (external already compiled) and on your computer (compile it or download it).
@@ -67,7 +67,7 @@ A standard regression algorithm is trained to build a new creative sound space f
         * Open `neuralnet-help.pd` and ensure that all objects load (i.e. no red error message in the PD window).
         * Create a sub-folder called `neuralnet` in your `pd-externals` folder, and move all the files inside. 
 
-### Assembly the Saxelerophone
+### Hardware
 Solder the wires shown in Figure 2 between the sensors and the Bela board. Use wires with a minimum length of 50 cm and a blank Printed Circuit Board ([PCB](https://en.wikipedia.org/wiki/Printed_circuit_board)) place on top of the Bela board. Hang the Bela board around your neck with a strap and adjust it so that the board is roughly in the middle of your torso. In a second step, place the [contact microphone](https://www.farnell.com/datasheets/3123697.pdf) on the upper part of the saxophone ligature, with the [ADXL337](https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL337.pdf) 3-axis digital accelerometer placed on top of it. Secure the electronic components with electrical tape and perform a [continuity test](https://en.wikipedia.org/wiki/Continuity_test) using a multimeter to see if current flows properly. Figure 4 shows the electronic components involved and their location on the Saxelerophone mouthpiece.
 
 |![Figure 4](images/components.jpg "Location of the Saxelerophone's electronic components.")|
